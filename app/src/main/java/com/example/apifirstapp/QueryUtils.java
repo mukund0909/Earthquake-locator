@@ -68,7 +68,7 @@ public final class QueryUtils {
                 String link =property.getString("url");
                 long ctime=Long.parseLong(time);
                 Date dateObject = new Date(ctime);
-                SimpleDateFormat dateFormatter = new SimpleDateFormat("MMM DD, yyyy");
+                SimpleDateFormat dateFormatter = new SimpleDateFormat("MMM dd, yyyy");
                 SimpleDateFormat timeFormatter = new SimpleDateFormat("hh.mm aa");
                 String dateToDisplay = dateFormatter.format(dateObject);
                 String timetodisplay= timeFormatter.format(dateObject);
